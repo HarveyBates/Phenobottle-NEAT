@@ -5,7 +5,7 @@ import random
 
 def run(config_path):
     config = neat.config.Config(neat.DefaultGenome, neat.DefaultReproduction, 
-    neat.DefaultSpeciesSet, neat.DefaultStagnation)
+    neat.DefaultSpeciesSet, neat.DefaultStagnation, "Hello")
 
 if __name__ == "__main__":
     local_dir = os.path.dirname(__file__)
