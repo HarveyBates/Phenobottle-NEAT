@@ -42,5 +42,5 @@ class Excel:
                 print("Written to Local .csv")
 
             except:
-                print("Failed to write to local csv file...")
+                print("Failed to write to local csv file..")
         f.close()
