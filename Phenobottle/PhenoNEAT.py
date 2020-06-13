@@ -3,7 +3,7 @@ import time
 import os
 import random
 
-def run():
+def run(config_path):
     config = neat.config.Config(neat.DefaultGenome, neat.DefaultReproduction, 
     neat.DefaultSpeciesSet, neat.DefaultStagnation)
 
