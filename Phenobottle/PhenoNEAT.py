@@ -4,7 +4,7 @@ import os
 import random
 
 def run():
-    config = neat.config.Config(neat.DefaultGenome, n)
+    config = neat.config.Config(neat.DefaultGenome, neat)
 
 if __name__ == "__main__":
     local_dir = os.path.dirname(__file__)
